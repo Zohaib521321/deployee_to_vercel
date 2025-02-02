@@ -1,8 +1,8 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, Field
 
 class AuthenticationModel(BaseModel):
     userName: str
-    email: EmailStr  
+    email: str  
     password: str = Field(..., min_length=6, max_length=16)  # Password length between 6 and 16
 
     class Config:
