@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import uvicorn  # ASGI server to run FastAPI
+import uvicorn  
 
 app = FastAPI()
 
