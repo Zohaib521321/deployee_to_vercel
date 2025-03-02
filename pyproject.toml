@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-practice"
+version = "0.1.0"
+description = "I am just working with Docker"
+authors = ["zohaib521321 <khanzohaib3231@gmail.com>"]
+readme = "README.md"
+package-mode = false  # Disable packaging mode
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
