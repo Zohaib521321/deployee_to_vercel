@@ -1,15 +1,21 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "fastapi_practice/main.py",
-            "use": "@vercel/python"
-        }
+      {
+        "src": "pyproject.toml",
+        "use": "@vercel/python",
+        "config": { "installCommand": "poetry install --no-root" }
+      },
+      {
+        "src": "main.py",
+        "use": "@vercel/python"
+      }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "fastapi_practice/main.py"
-        }
+      {
+        "src": "/(.*)",
+        "dest": "main.py"
+      }
     ]
-}
+  }
+  
