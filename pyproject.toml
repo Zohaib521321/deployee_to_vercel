@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-practice"
+name = "/"
 version = "0.1.0"
 description = "I am just working with Docker"
 authors = ["zohaib521321 <khanzohaib3231@gmail.com>"]
