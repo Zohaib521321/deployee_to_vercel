@@ -14,7 +14,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "fastapi_practice/main.py"
+        "dest": "main.py"
       }
     ],
     "trailingSlash": true
