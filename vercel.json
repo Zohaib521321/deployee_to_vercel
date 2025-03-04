@@ -4,8 +4,7 @@
         
       {
         "src": "pyproject.toml",
-        "use": "@vercel/python",
-        "config": { "installCommand": "poetry install --no-root" }
+        "use": "@vercel/python"
       },
       {
         "src": "main.py",
